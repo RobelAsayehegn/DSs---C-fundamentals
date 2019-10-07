@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-void Display(int* x);
+void Display(int* x); //function proto type
+
 int main() {
     int i, ceillingNumber;
     
@@ -8,7 +9,7 @@ int main() {
     scanf("%d", &ceillingNumber);
 
     printf("Fibonacci Series: ");
-    Display(&ceillingNumber);
+    Display(&ceillingNumber); //passing the ceilling number to another function by reference
     
     return 0;
 }
