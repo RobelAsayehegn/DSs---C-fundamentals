@@ -27,5 +27,4 @@ void Display(int* ceillingNum){
             fibonaccibiginning[1] = sum;
         }    
     }
-    
 }
